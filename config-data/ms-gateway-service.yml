@@ -31,4 +31,8 @@ spring:
           uri: lb://ms-curso-service
           predicates:
             - Path=/curso/**
+        - id: ms-pago-service
+          uri: lb://ms-pago-service
+          predicates:
+            - Path=/pago/**
 
