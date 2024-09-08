@@ -8,7 +8,7 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/DavidRomeroN/DAD2024-03.git # ruta del repositorio git
+          uri: https://github.com/DavidRomeroN/DAD-PRUEBA.git # ruta del repositorio git
           searchPaths: config-data
           #username:
           #password:
