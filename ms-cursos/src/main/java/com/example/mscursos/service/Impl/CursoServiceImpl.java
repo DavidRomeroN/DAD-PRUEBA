@@ -2,6 +2,7 @@ package com.example.mscursos.service.Impl;
 
 import com.example.mscursos.entity.Curso;
 import com.example.mscursos.repository.CursoRepository;
+import com.example.mscursos.service.CursoService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -9,7 +10,7 @@ import java.util.List;
 import java.util.Optional;
 
 @Service
-public class CursoServiceImpl {
+public class CursoServiceImpl implements CursoService {
     @Autowired
     private CursoRepository cursoRepository;
 
