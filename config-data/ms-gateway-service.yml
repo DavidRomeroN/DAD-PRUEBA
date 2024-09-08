@@ -23,3 +23,7 @@ spring:
           uri: lb://ms-product-service
           predicates:
             - Path=/product/**
+        - id: ms-matricula-service
+          uri: lb://ms-matricula-service
+          predicates:
+            - Path=/estudiante/**
