@@ -39,3 +39,4 @@ public class CursoController {
         cursoService.eliminarPorId(id);
         return "Curso eliminado correctamente";
     }
+}
